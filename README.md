@@ -17,6 +17,7 @@ This project will only focus on the H1N1 vaccine,thus the aim is to build a clas
 ## Components
 
 __Data__
+
 Data for this project was downloaded from https://www.drivendata.org/competitions/66/flu-shot-learning/
 
 To datasets were used,which were
@@ -143,9 +144,30 @@ An overview of the project's objectives,analysis,conclusion and recomendations
 The best classifier was XGboost with tuned paramters.
 
 Top ten feature importance for the model were:
+* Seasonal vaccine
+
+* Doctor recommendation
+
+* health_insurance	
+
+* opinion_h1n1_risk
+
+* opinion_h1n1_vacc_effective	
+
+* doctor_recc_seasonal	
+
+* health_worker	
+
+* h1n1_knowledge	
+
+* opinion_seas_vacc_effective	
+
+* behavioral_wash_hands	
+
 ![Model feature importance](https://github.com/E-Juliet/Phase_3_project/blob/main/feature%20importance.png)
 
 __ROC Curve for baseline and final model__
+
 ![Roc curves](https://github.com/E-Juliet/Phase_3_project/blob/main/ROC%20curve.png)
 
 
