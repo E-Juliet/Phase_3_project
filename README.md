@@ -124,6 +124,31 @@ An overview of the project's objectives,analysis,conclusion and recomendations
 
 * Build a classification model to predict how likely individuals are to receive the H1N1 vaccine
 
+## Key Findings
+![h1n1 knowledge](https://github.com/E-Juliet/Phase_3_project/blob/main/h1n1_knowledge.png))
+
+* Most people had a little knowledge about the h1n1 flu
+
+![seasonal vaccine](https://github.com/E-Juliet/Phase_3_project/blob/main/Seasonal%20Vaccine.png)
+
+* Most people who received the seasonal vaccine also received the h1n1 vaccine
+
+![health insurance](https://github.com/E-Juliet/Phase_3_project/blob/main/Health_Insurance.png)
+
+* Most people who had health insurance took the h1n1 vaccine
+
+![Docctors reccommendation](https://github.com/E-Juliet/Phase_3_project/blob/main/Doctors%20Reccommendation.png)
+
+## Model Evaluation
+The best classifier was XGboost with tuned paramters.
+
+Top ten feature importance for the model were:
+![Model feature importance](https://github.com/E-Juliet/Phase_3_project/blob/main/feature%20importance.png)
+
+__ROC Curve for baseline and final model__
+![Roc curves](https://github.com/E-Juliet/Phase_3_project/blob/main/ROC%20curve.png)
+
+
 ## Limitations
 
 * Some columns(employment occupation,employment industry) had more than 50% of the data missing leading to droping the columns,data collection process can improved to see that we dont have large percentage of missing values
